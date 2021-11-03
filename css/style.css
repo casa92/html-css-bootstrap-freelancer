@@ -1,3 +1,10 @@
+/*COMMON*/
+.star::after {
+    content: "";
+    margin-left: 10px;
+    border: px solid black;
+}
+
 /*HEADER*/
 header {
     background-color: #2c3e50;
@@ -96,6 +103,17 @@ header {
 .contact_me {
     padding-top: 50px;
     padding-bottom: 30px;
+}
+.form input,
+.form textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.form input:focus,
+.form textarea:focus {
+    box-shadow: none;
 }
 /*footer*/
 footer {
